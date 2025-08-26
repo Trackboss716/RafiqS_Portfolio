@@ -115,7 +115,7 @@ margin-bottom: 1.5rem;
 background: linear-gradient(45drg, var(--accent) 30%
 #ffffff 70%);
 -webkit-background-clip: text;
--webkit-text-fill-color: transparent;    
+-webkit-text-fill-color: var(--accent);    
 }
 
 .hero p {
@@ -223,3 +223,46 @@ transform: translateY(-3px);
   padding-left: 2rem;  
 }
 }
+
+  .contact-form {
+      background: var(--accent);
+      padding: 20px 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      width: 350px;
+    }
+    .contact-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .contact-form label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    .contact-form button {
+      margin-top: 15px;
+      width: 100%;
+      padding: 10px;
+      background: #007BFF;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .contact-form button:hover {
+      background: #0056b3;
+    }
+
+    

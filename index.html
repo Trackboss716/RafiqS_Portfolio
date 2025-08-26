@@ -12,7 +12,7 @@
     <body>
         <!-- Navigation-->
          <nav class="navbar">
-            <a href="#home" class="logo">WebDev</a>
+            <a href="#home" class="logo">Web Developer</a>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -23,7 +23,7 @@
          <!-- Hero Section-->
          <section id="home" class="hero">
             <div class="hero-content">
-                <h1>Web Developer</h1>
+                <h1>Rafiq Shelton</h1>
                 <p>Building digital experiences that merge creativity with technology</p>
                 <p class="highlight">Specializing in modern web development</p>
                 <a href="#contact" class="cta-button">Let's Connect</a>
@@ -54,6 +54,25 @@
                 </div>
             </div>
           </section>
+
+
+          <form class="contact-form" action="submit_form.php" method="POST">
+    <h2>Contact Me</h2>
+
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject">
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
 
           <!--Footer-->
           <footer>
