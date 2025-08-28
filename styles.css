@@ -266,3 +266,14 @@ transform: translateY(-3px);
     }
 
     
+.aboutme p {
+  max-width: 600px;   /* keeps text in a nice readable column */
+  margin: 0 auto;     /* centers the block horizontally */
+  text-align: left;   /* keeps text aligned to the left */
+  line-height: 1.6;   /* improves readability */
+}
+
+.aboutme h2 {
+  text-align: center;
+  color: var(--accent);
+}
